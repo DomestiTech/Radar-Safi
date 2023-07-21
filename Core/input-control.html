@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head><title>Input Control</title>
+<script type="text/javascript">
+//variables
+
+var console;
+var display;
+var everything = console + display;
+var framework;
+var inputtype;
+var career;
+var functionType;
+
+//init
+
+defaultUrl = "../Index.html";
+alternateUrl = "";
+var homeUrl = "<a href='" + defaultUrl + "'> Home </a>" + " - ";
+console = "Cultural Name: <input id = 'console' type = 'text'>";
+var submit = "<input type='button' value = 'Login' onclick = 'culturalLogin()'>";
+display = "<h2>Glory to God</h2><hr>" + homeUrl + console + submit + "<br>";
+var culturalName = ""; //value yields a different page-set (advisably Guest) when blanked out
+
+//CODING OBJECTIVE: PURPOSING AND ALIGNMENT OF INDIVIDUAL AND COLLECTIVE INTER-CULTURAL-MICROBIODOME-POWERED INDUSTRIES AND ASSOCIATED PRODUCTS
+
+display = "<h2>Glory to God</h2><hr>" + homeUrl + console + submit + "<br>";
+framework = "<!DOCTYPE html><html><head><title></title></head><body>" + display + "<p><a href='../Megaverse/Reception/Traditional Cultural Name Synthesis.html'>Guest</a></body></html>";
+
+document.write(framework);
+
+var buttons = "";
+var count;
+var jobTitle;
+var userPage="";
+
+function sectionize("basic") {
+//--setting "basic" or "advanced" to be acquired from calling function
+//--function to create identifiable div with components inside received from either userCareer database or userInfo database where userInfo is "basic"
+}
+
+function enforcer(){
+functionType = "app";
+var userCareer = {"career": ["Organic Farmer","Development Student","Student Programmer","Programming Internship Student","Field Agent","Programmer","Geophysics Internship Student","Mining Internship Student","Geophysics Expert","Mining Expert","Finance Expert","Artisan (Jua-Kali or Informal-Sector Worker)","University Liaison Officer","Transporter","Sponsor"], "function": [foodProduction('user'),futureSystemSupport('user'),futureSystemSupport('user'),futureSystemSupport('user'),dataUpdates('user'),systemSupport('user'),futureClimateSupport('user'),futureClimateSupport('user'),climateSupport('user'),mineralProduction('user'),currencyManagement('user'),essentialServices('user'),universityLiaison('user'),transportation('user'),financialSupport('user')]};
+
+userPage = sectionize(basic) + sectionize(userCareer);
+
+//enforcer() subfunctions
+var actionButton=document.getElementById('usertype[6]');
+
+function foodProduction(functionType) {
+actionButton = document.getElementById('usertype[0]');
+return "<h2>Food Production</h2>";
+}
+
+function futureSystemSupport(functionType) {
+actionButton = document.getElementById('usertype[1]');
+return "<h2>Future System Support</h2>";
+}
+
+function dataUpdates(functionType) {
+actionButton = document.getElementById('usertype[4]');
+return "<h2>Data Updates</h2>";
+}
+
+function systemSupport(functionType) {
+actionButton = document.getElementById('usertype[5]');
+return "<h2>System Support</h2>";
+}
+
+function futureClimateSupport(functionType) {
+//actionButton = document.getElementById('usertype[6]');
+return "<h2>Future Climate Support</h2>";
+}
+
+function climateSupport(functionType) {
+actionButton = document.getElementById('usertype[7]');
+return "<h2>Climate Support</h2>";
+}
+
+function mineralProduction(functionType) {
+actionButton = document.getElementById('usertype[6]');
+return "<h2>Mineral Production</h2>";
+}
+
+function currencyManagement(functionType) {
+actionButton = document.getElementById('usertype[7]');
+return "<h2>Currency Management</h2>";
+
+}
+
+function essentialServices() {
+actionButton = document.getElementById('usertype[8]');
+return "<h2>Essential Services</h2>";
+
+}
+
+function universityLiaison() {
+actionButton = document.getElementById('usertype[9]');
+return "<h2>Essential Services</h2><a href = '../Core/user_f(x)s/university_liaison.html'>University Liaison Officer</a>";
+
+}
+
+function transportation() {
+actionButton = document.getElementById('usertype[10]');
+userPage = "<h2>Transportation</h2>";
+}
+
+function financialSupport() {
+actionButton = document.getElementById('usertype[11]');
+userPage = "<h2>Financial Support</h2>";
+}
+}
+
+var button;
+for(count = 0; count < 15; count++){
+jobTitle = "usertype" + count;
+button[count] = buttons + "<p align='center'><input type='button' id = 'usertype[" + count + "]' value='" + buttons.value + "' onclick = 'enforcer()'><p>";
+}
+
+function culturalLogin() {
+//sets cultural name of user affects what is displayed at console
+culturalName = document.getElementById("console").value;
+
+display = culturalName + ", what would you like to join Radar-Safi as?";
+framework = "<!DOCTYPE html><html><head><title></title></head><body>" + display + buttons + "<!-- Unlike most modern systems, Radar Safi's orgware registration system shall be such that the user realizes interaction. To be achieved via use of intelligent forms</body></html>";
+
+document.write(framework);
+
+}
+
+//key concept towards fielding buttons
+/*var usertype1 = document.getElementById("usertype1");
+var usertype2 = document.getElementById("usertype2");
+var usertype3 = document.getElementById("usertype3");
+var usertype4 = document.getElementById("usertype4");
+var usertype5 = document.getElementById("usertype5");
+var usertype6 = document.getElementById("usertype6");
+var usertype7 = document.getElementById("usertype7");
+var usertype8 = document.getElementById("usertype8");
+var usertype9 = document.getElementById("usertype9");
+var usertype10 = document.getElementById("usertype10");
+var usertype11 = document.getElementById("usertype11");
+var usertype12 = document.getElementById("usertype12");
+var usertype13 = document.getElementById("usertype13");
+var usertype14 = document.getElementById("usertype14");*/
+
+//display alone or display with buttons to depend on whether user has specified what she or he is joining as i.e. to remain visible until specified then switch to selected section with user's cultural name contained in memory.
+
+</script>
+</head>
+<body>
+</body>
+<html>

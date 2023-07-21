@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head><title>Input Control</title>
+<script type="text/javascript">
+//variables
+
+var console;
+var display;
+var everything = console + display;
+var framework;
+var inputtype;
+var career;
+
+var userType = ["Organic Farmer","Development Student","Student Programmer","Programming Internship Student","Field Agent","Programmer","Geophysics Internship Student","Mining Internship Student","Geophysics Expert","Mining Expert","Finance Expert","Artisan (Jua-Kali or Informal-Sector Worker)","University Liaison Officer","Transporter","Sponsor"];
+
+//init
+
+defaultUrl = "../Index.html";
+alternateUrl = "";
+var homeUrl = "<a href='" + defaultUrl + "'> Home </a>" + " - ";
+console = "Cultural Name: <input id = 'console' type = 'text'>";
+var submit = "<input type='button' value = 'Login' onclick = 'culturalLogin()'>";
+display = "<h2>Glory to God</h2><hr>" + homeUrl + console + submit + "<br>";
+var culturalName = ""; //value yields different page when blanked out
+
+//CODING OBJECTIVE: PURPOSING AND ALIGNMENT OF INDIVIDUAL AND COLLECTIVE INTER-CULTURAL-BIODOME-POWERED INDUSTRIES AND ASSOCIATED PRODUCTS
+
+display = "<h2>Glory to God</h2><hr>" + homeUrl + console + submit + "<br>";
+framework = "<!DOCTYPE html><html><head><title></title></head><body>" + display + "</body></html>";
+
+document.write(framework);
+
+var buttons = "";
+var count;
+var userKey;
+var jobTitle;
+
+for(count = 0; count < 15; count++){
+jobTitle = "usertype" + count;
+buttons = buttons + "<p align='center'><input type='button' id = 'usertype" + count + "' value='" + userType[count] + "' onclick = 'function setupUser(jobTitle)'<p>";
+}
+
+function culturalLogin() {
+//sets cultural name of user affects what is displayed at console
+culturalName = document.getElementById("console").value;
+
+display = culturalName + ", what would you like to join Radar-Safi as?";
+framework = "<!DOCTYPE html><html><head><title></title></head><body>" + display + buttons + "<!-- Unlike most modern systems, Radar Safi's orgware registration system shall be such that the user realizes interaction. To be achieved via use of intelligent forms</body></html>";
+
+document.write(framework);
+
+}
+var userTypeId;
+function setupUser(userTypeId) {
+var user = document.getElementById(userTypeId);
+userKey = { "name" : culturalName, "slot" : user.value };
+alert("You did it!, " + userKey.name + ", you are indeed a(n) " + userKey.slot);
+}
+
+var usertype1 = document.getElementById("usertype1");
+var usertype2 = document.getElementById("usertype2");
+var usertype3 = document.getElementById("usertype3");
+var usertype4 = document.getElementById("usertype4");
+var usertype5 = document.getElementById("usertype5");
+var usertype6 = document.getElementById("usertype6");
+var usertype7 = document.getElementById("usertype7");
+var usertype8 = document.getElementById("usertype8");
+var usertype9 = document.getElementById("usertype9");
+var usertype10 = document.getElementById("usertype10");
+var usertype11 = document.getElementById("usertype11");
+var usertype12 = document.getElementById("usertype12");
+var usertype13 = document.getElementById("usertype13");
+var usertype14 = document.getElementById("usertype14");
+
+//display alone or display with buttons to depend on whether user has specified what she or he is joining as i.e. to remain visible until specified then switch to selected section with user's cultural name contained in memory.
+
+</script>
+</head>
+<body>
+</body>
+<html>

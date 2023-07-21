@@ -1,0 +1,20 @@
+nature: logical object
+function() {//--links realworld user-populated social-media hash-tag trends;
+//-- example: "the " + #blasphemy + " of " + #costOfLiving;
+"the " + #relationshipBetween(#kebeNkiaMonyene && "the devil takes care " + of + " his own"){
+
+
+
+
+
+};}
+
+object #relationshipBetween(){
+"nature": "virtual logical object"
+//--virtualization in the logical dimension
+//--see #spiritualWarfare in the #logicalDimension
+//--Example: e.g. in Logical Wars vs Physical Bloody Wars
+
+var objectInverterdness = ["easter", "wester", "norther", "souther"];
+"as a nurse you should never panic"
+}
